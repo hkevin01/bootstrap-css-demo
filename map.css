@@ -1,0 +1,111 @@
+/* 
+This css file handles Openlayers menu style and other styles for the openlayers map
+*/
+
+
+/* popup related styles */
+.olPopup
+{
+	text-decoration:none!important;
+	overflow:inherit;
+}
+
+.olPopup *
+{
+	margin: 0px;
+	padding:0px;
+	font-size: 12px;
+}
+
+.olPopup a.close
+{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 10px;
+	right: 28px;
+	background: url(http://ovation.gstwv.com/templates/images/close.gif) no-repeat top left;
+	margin: 0px;
+	font-size: 1px;
+	padding: 0px;
+}
+
+.olPopup a.close:hover
+{
+	background: url(http://ovation.gstwv.com/templates/images/close-hover.gif) no-repeat top left;
+}
+
+.olPopup .olPopupContent
+{
+	min-width:200px;
+	background-color: #ffffff !important;
+	padding: 1px !important;
+	margin: 0px !important;
+	font-size: 0.80em;
+}
+
+.olPopup .olPopupContent h2
+{
+	font-size: small;
+	text-align: center;
+	padding: 2px 0px 2px 0px;
+	margin: 0px 6px 0px 6px;
+	text-transform:capitalize;
+}
+
+.olPopup .olPopupContent table
+{
+	border-collapse:collapse;
+	overflow: auto;
+	padding: 0px;
+}
+
+.olPopupContent table td
+{
+	padding: 4px;
+	border: 1px solid #cccccc;
+}
+
+
+.olControlLayerSwitcher .layersDiv {
+	
+				text-align: left;
+				font-family: sans-serif;
+				font-weight: bold;
+				font-size: 12px;
+				color: #ffffff;
+                background: rgba(0, 60, 136);
+                -moz-border-radius: 15px 0px 0px 15px;
+                border-radius: 15px 0px 0px 15px;
+}
+
+
+
+.olControlLayerSwitcher .olButton{
+	vertical-align: baseline;
+}
+.olControlLayerSwitcher input{
+	vertical-align: baseline;
+}
+
+.olControlLayerSwitcher label{
+				display:inline;
+				padding-left: 5px;
+				text-align: left;
+				font-family: sans-serif;
+				font-weight: bold;
+				font-size: 12px;
+				color: #ffffff;
+                background: rgba(0, 60, 136);
+                -moz-border-radius: 15px 0px 0px 15px;
+                border-radius: 15px 0px 0px 15px;
+}
+
+.olControlLayerSwitcher {
+                color:#666666;
+                -moz-border-radius: 15px 0px 0px 15px;
+                border-radius: 15px 0px 0px 15px;
+                
+}
+/* fixes glitching of UI in google maps buttons  */
+#map img { max-width: none; }
