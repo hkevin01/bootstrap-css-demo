@@ -1,0 +1,7 @@
+/* Basic Bootstrap Grids Demo
+   Demonstrates grid layout using Bootstrap grid system. */
+.grid-demo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}

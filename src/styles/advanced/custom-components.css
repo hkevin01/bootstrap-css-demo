@@ -1,0 +1,8 @@
+/* Advanced Bootstrap Custom Components Demo
+   Shows how to extend Bootstrap with custom components. */
+.card-demo {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 16px;
+  background: #fff;
+}

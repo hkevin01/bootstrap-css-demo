@@ -1,0 +1,7 @@
+/* Advanced Bootstrap Layouts Demo
+   Responsive layouts using Bootstrap and custom CSS. */
+.layout-demo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}

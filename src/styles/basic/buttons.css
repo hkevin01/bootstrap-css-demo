@@ -1,0 +1,6 @@
+/* Basic Bootstrap Buttons Demo
+   Shows how to style buttons using Bootstrap classes and custom CSS. */
+.btn-demo {
+  @apply btn btn-primary;
+  margin: 8px;
+}

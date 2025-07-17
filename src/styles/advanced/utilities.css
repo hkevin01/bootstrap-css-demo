@@ -1,0 +1,8 @@
+/* Advanced Bootstrap Utilities Demo
+   Custom utility classes for spacing, colors, and layout. */
+.mt-32 {
+  margin-top: 32px;
+}
+.text-accent {
+  color: #007bff;
+}

@@ -1,0 +1,7 @@
+/* Basic Bootstrap Typography Demo
+   Shows how to use Bootstrap typography classes. */
+.text-demo {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+}
