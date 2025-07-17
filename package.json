@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap-css-demo",
+  "version": "1.0.0",
+  "description": "A demo project using Bootstrap CSS.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "echo 'No build step defined.'",
+    "test": "echo 'No tests defined.'",
+    "start": "echo 'No start script defined.'"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -109,3 +109,5 @@ This css file handles Openlayers menu style and other styles for the openlayers 
 }
 /* fixes glitching of UI in google maps buttons  */
 #map img { max-width: none; }
+
+/* File moved to src/styles/map.css */
